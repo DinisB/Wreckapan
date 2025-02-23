@@ -1,0 +1,10 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "Palavrões",
+      "symbol": "var_palavr_es"
+    }
+  ]
+}

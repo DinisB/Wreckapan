@@ -30,7 +30,7 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP1",
+                  "objPalette": "OBP0",
                   "paletteIndex": 0,
                   "priority": false
                 },
@@ -43,7 +43,7 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP1",
+                  "objPalette": "OBP0",
                   "paletteIndex": 0,
                   "priority": false
                 }
@@ -75,7 +75,7 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP1",
+                  "objPalette": "OBP0",
                   "paletteIndex": 0,
                   "priority": false
                 },
@@ -88,7 +88,7 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP1",
+                  "objPalette": "OBP0",
                   "paletteIndex": 0,
                   "priority": false
                 }
@@ -111,7 +111,7 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP1",
+                  "objPalette": "OBP0",
                   "paletteIndex": 0,
                   "priority": false
                 },
@@ -124,7 +124,7 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP1",
+                  "objPalette": "OBP0",
                   "paletteIndex": 0,
                   "priority": false
                 }
@@ -147,7 +147,7 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP1",
+                  "objPalette": "OBP0",
                   "paletteIndex": 0,
                   "priority": false
                 },
@@ -160,7 +160,7 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP1",
+                  "objPalette": "OBP0",
                   "paletteIndex": 0,
                   "priority": false
                 }
@@ -178,7 +178,7 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP1",
+                  "objPalette": "OBP0",
                   "paletteIndex": 0,
                   "priority": false
                 },
@@ -191,7 +191,7 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP1",
+                  "objPalette": "OBP0",
                   "paletteIndex": 0,
                   "priority": false
                 }
@@ -209,7 +209,7 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP1",
+                  "objPalette": "OBP0",
                   "paletteIndex": 0,
                   "priority": false
                 },
@@ -222,7 +222,7 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP1",
+                  "objPalette": "OBP0",
                   "paletteIndex": 0,
                   "priority": false
                 }
@@ -240,7 +240,7 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP1",
+                  "objPalette": "OBP0",
                   "paletteIndex": 0,
                   "priority": false
                 },
@@ -253,7 +253,7 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP1",
+                  "objPalette": "OBP0",
                   "paletteIndex": 0,
                   "priority": false
                 }
@@ -285,7 +285,7 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP1",
+                  "objPalette": "OBP0",
                   "paletteIndex": 0,
                   "priority": false
                 },
@@ -298,7 +298,7 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP1",
+                  "objPalette": "OBP0",
                   "paletteIndex": 0,
                   "priority": false
                 }
@@ -316,7 +316,7 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP1",
+                  "objPalette": "OBP0",
                   "paletteIndex": 0,
                   "priority": false
                 },
@@ -329,7 +329,7 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP1",
+                  "objPalette": "OBP0",
                   "paletteIndex": 0,
                   "priority": false
                 }
@@ -347,7 +347,7 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP1",
+                  "objPalette": "OBP0",
                   "paletteIndex": 0,
                   "priority": false
                 },
@@ -360,7 +360,7 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP1",
+                  "objPalette": "OBP0",
                   "paletteIndex": 0,
                   "priority": false
                 }
@@ -378,7 +378,7 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP1",
+                  "objPalette": "OBP0",
                   "paletteIndex": 0,
                   "priority": false
                 },
@@ -391,7 +391,7 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP1",
+                  "objPalette": "OBP0",
                   "paletteIndex": 0,
                   "priority": false
                 }
@@ -414,7 +414,7 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP1",
+                  "objPalette": "OBP0",
                   "paletteIndex": 0,
                   "priority": false
                 },
@@ -427,7 +427,7 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP1",
+                  "objPalette": "OBP0",
                   "paletteIndex": 0,
                   "priority": false
                 }
@@ -445,7 +445,7 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP1",
+                  "objPalette": "OBP0",
                   "paletteIndex": 0,
                   "priority": false
                 },
@@ -458,7 +458,7 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP1",
+                  "objPalette": "OBP0",
                   "paletteIndex": 0,
                   "priority": false
                 }
@@ -476,7 +476,7 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP1",
+                  "objPalette": "OBP0",
                   "paletteIndex": 0,
                   "priority": false
                 },
@@ -489,7 +489,7 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP1",
+                  "objPalette": "OBP0",
                   "paletteIndex": 0,
                   "priority": false
                 }
@@ -507,7 +507,7 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP1",
+                  "objPalette": "OBP0",
                   "paletteIndex": 0,
                   "priority": false
                 },
@@ -520,7 +520,7 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP1",
+                  "objPalette": "OBP0",
                   "paletteIndex": 0,
                   "priority": false
                 }
