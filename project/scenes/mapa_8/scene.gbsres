@@ -22,7 +22,7 @@
         "actorId": "7f00924d-fc18-4842-8979-21674e22571b",
         "x": {
           "type": "number",
-          "value": 13
+          "value": 11
         },
         "y": {
           "type": "number",
@@ -163,7 +163,7 @@
         "actorId": "7f00924d-fc18-4842-8979-21674e22571b",
         "x": {
           "type": "number",
-          "value": 12
+          "value": 10
         },
         "y": {
           "type": "number",
@@ -173,6 +173,17 @@
         "useCollisions": false
       },
       "id": "3e0c425b-36a4-4941-87d0-bff626f1cfd7"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "up"
+        }
+      },
+      "id": "4ce1c87c-f16c-4a4a-9504-9da77a9e6ae1"
     },
     {
       "command": "EVENT_ACTOR_MOVE_TO",
@@ -237,8 +248,8 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "\"This is the Glock\n22, a firearm used\nby the USA police",
-          "force in the year\n2025,",
+          "\"This is the Glock\n22, a firearm used\nby the USA",
+          "police force \nin the year 2025,",
           "it is a\nrelic from the \npast."
         ],
         "__section": "text",
@@ -313,6 +324,108 @@
       "id": "835d92e4-50ee-44d1-8ff8-ee2868a43816"
     },
     {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "c4a5427c-2322-4c66-99a0-8d8fa682f5ea",
+        "x": {
+          "type": "number",
+          "value": 13
+        },
+        "y": {
+          "type": "number",
+          "value": 13
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "68b0ca9a-f73a-4949-bc5d-4f76247c447a"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "c4a5427c-2322-4c66-99a0-8d8fa682f5ea",
+        "direction": {
+          "type": "direction",
+          "value": "left"
+        }
+      },
+      "id": "3da0c4e4-36fa-43f3-9ba6-e309a6190192"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "7f00924d-fc18-4842-8979-21674e22571b",
+        "speed": 4
+      },
+      "id": "b40f890b-3ab2-4144-895c-2f3f06907cf2"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "7f00924d-fc18-4842-8979-21674e22571b",
+        "x": {
+          "type": "number",
+          "value": 13
+        },
+        "y": {
+          "type": "number",
+          "value": 7
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "c8c1a65e-f828-47e1-bed2-6ca5009a7961"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "7f00924d-fc18-4842-8979-21674e22571b"
+      },
+      "id": "55397325-4631-4519-899b-592b05943d96"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "c4a5427c-2322-4c66-99a0-8d8fa682f5ea",
+        "x": {
+          "type": "number",
+          "value": 13
+        },
+        "y": {
+          "type": "number",
+          "value": 7
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "f6bf8438-0288-4211-8c6f-8e210ea8c5ae"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Treats you right!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "09a200b2-537f-4d13-9228-c3827245703d"
+    },
+    {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
         "sceneId": "4048d39c-7305-41e2-ba2f-4188382c2db6",
@@ -324,10 +437,10 @@
           "type": "number",
           "value": 8
         },
-        "direction": "",
+        "direction": "down",
         "fadeSpeed": "2"
       },
-      "id": "0c2580e3-6c9f-43ba-9792-9b28d9317b10"
+      "id": "2fb36e72-071a-4a83-af55-e90fdc69bd56"
     }
   ],
   "playerHit1Script": [],

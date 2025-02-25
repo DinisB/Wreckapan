@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "0f337cd3-8cfd-430d-93fd-bf017b7ed5e2",
+  "name": "wreckapan_cutscene_03",
+  "symbol": "bg_wreckapan_cutscene_03",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "wreckapan_cutscene_03.png",
+  "tileColors": ""
+}

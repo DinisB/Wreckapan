@@ -17,12 +17,24 @@
   "y": 30,
   "script": [
     {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "691d65f8-d0dd-4801-af14-29c57d8040b2"
+    },
+    {
       "command": "EVENT_WAIT",
       "args": {
         "time": 1,
         "frames": 30
       },
       "id": "eebaf1bc-6f33-40e0-9911-a8f41ec79fe8"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "cd9ce547-f7e2-4e57-adc0-b525505844d1"
+      },
+      "id": "57cee18b-26bd-4fc9-a350-a685d27cf696"
     },
     {
       "command": "EVENT_SWITCH_SCENE",

@@ -5,6 +5,16 @@
       "id": "0",
       "name": "Palavrões",
       "symbol": "var_palavr_es"
+    },
+    {
+      "id": "8bcb27fd-d774-4e9f-8b8d-28d3c2bb02d1__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
+    },
+    {
+      "id": "4",
+      "name": "Vida",
+      "symbol": "var_vida"
     }
   ]
 }

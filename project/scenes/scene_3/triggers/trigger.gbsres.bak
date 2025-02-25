@@ -11,6 +11,18 @@
   "height": 1,
   "script": [
     {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "285605a7-9722-4922-bf58-d2764c0c9c5f"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "4a6f3758-7adb-469e-9dae-f242a1f00790"
+      },
+      "id": "0cfe7dad-2360-4c83-8804-a2ac1feaec92"
+    },
+    {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
         "sceneId": "e236155e-67b3-4cb0-bb9d-3d815218b61b",

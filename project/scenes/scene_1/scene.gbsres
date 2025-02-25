@@ -64,28 +64,31 @@
       "id": "bca41357-f91b-4f94-84b8-b6d9fe928a13"
     },
     {
-      "command": "EVENT_SET_INPUT_SCRIPT",
+      "command": "EVENT_GROUP",
       "args": {
-        "input": [
-          "start"
-        ],
-        "override": true,
-        "__scriptTabs": "press"
+        "__label": "Pause",
+        "__collapse": false
       },
       "children": {
         "true": [
           {
-            "command": "EVENT_GROUP",
-            "args": {},
+            "command": "EVENT_SET_INPUT_SCRIPT",
+            "args": {
+              "input": [
+                "start"
+              ],
+              "override": true,
+              "__scriptTabs": "press"
+            },
             "children": {
               "true": [
                 {
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "Paused, want to \nquit?"
+                      "Game is paused, \ncontinue?"
                     ],
-                    "__section": "text",
+                    "__section": "behavior",
                     "avatarId": "",
                     "minHeight": 4,
                     "maxHeight": 7,
@@ -100,18 +103,20 @@
                     "closeWhen": "text",
                     "closeButton": "a",
                     "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30
+                    "closeDelayFrames": 30,
+                    "__collapse": true
                   },
-                  "id": "9d6c48d8-3ca5-453d-a77c-8162c0301458"
+                  "id": "5718a152-b0ba-4448-a95a-723af9eaa3b9"
                 },
                 {
                   "command": "EVENT_CHOICE",
                   "args": {
-                    "variable": "L0",
-                    "trueText": "Yes",
-                    "falseText": "No"
+                    "variable": "L1",
+                    "trueText": "Continue",
+                    "falseText": "Quit",
+                    "__collapse": false
                   },
-                  "id": "b84c8267-17e1-447b-a2e9-6cbb07040005"
+                  "id": "3f796c32-2906-48f3-bc8b-0027c74a3c5c"
                 },
                 {
                   "command": "EVENT_IF",
@@ -120,45 +125,46 @@
                       "type": "eq",
                       "valueA": {
                         "type": "variable",
-                        "value": "L0"
+                        "value": "L1"
                       },
                       "valueB": {
-                        "type": "true"
+                        "type": "false"
                       }
                     },
-                    "__collapseElse": true
+                    "__collapseElse": true,
+                    "__collapse": false
                   },
                   "children": {
                     "true": [
                       {
                         "command": "EVENT_SWITCH_SCENE",
                         "args": {
-                          "sceneId": "ae2dcbcb-8a88-477e-b381-34fda80651f8",
+                          "sceneId": "1a3ef7d4-f33e-4685-ad34-098f64c3b403",
                           "x": {
                             "type": "number",
-                            "value": 9
+                            "value": 0
                           },
                           "y": {
                             "type": "number",
-                            "value": 9
+                            "value": 0
                           },
-                          "direction": "down",
+                          "direction": "",
                           "fadeSpeed": "2"
                         },
-                        "id": "47501ec7-5d7a-4ee2-a10d-24047a0a276b"
+                        "id": "44afbcb1-ca78-4e00-beaa-13f7789934bd"
                       }
                     ],
                     "false": []
                   },
-                  "id": "cf41c7a6-4968-45b3-949c-206facc15ab2"
+                  "id": "bbca6ace-ec94-46d8-9ada-393035723d5b"
                 }
               ]
             },
-            "id": "b5e218c7-4682-42f1-94a2-5cc106a32e93"
+            "id": "016e8db2-80d9-4b04-b2a0-9b4dc4d8cfe0"
           }
         ]
       },
-      "id": "88bc7393-ea75-44a6-a92e-5d4b933bd82d"
+      "id": "fe5a70fd-6dcf-46a4-872d-9ebf7d6b5aa6"
     }
   ],
   "playerHit1Script": [],

@@ -8,5 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 144,
   "filename": "wreckapan_splash.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }
