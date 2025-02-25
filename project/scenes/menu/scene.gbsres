@@ -28,6 +28,27 @@
       "id": "e6549784-d9ab-492f-a1ca-c850a2a30959"
     },
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "1",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "a6573786-42b3-489a-9836-1d139bbc1d16"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "3",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "1a033eb3-ec38-4e40-88a4-dcfbc084799b"
+    },
+    {
       "command": "EVENT_CHOICE",
       "args": {
         "variable": "L0",

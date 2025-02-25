@@ -15,6 +15,41 @@
       "id": "4",
       "name": "Vida",
       "symbol": "var_vida"
+    },
+    {
+      "id": "1b0a6390-6f8f-4cd0-83f8-59f0ede6fd65__L0",
+      "name": "Local 0",
+      "symbol": "var_local_1"
+    },
+    {
+      "id": "3b25c62a-3c84-4dc3-a397-d53b35babb33__L0",
+      "name": "Local 0",
+      "symbol": "var_local_2"
+    },
+    {
+      "id": "002f220a-5bcf-42b4-a7e6-868b50eba4c1__L0",
+      "name": "Local 0",
+      "symbol": "var_local_3"
+    },
+    {
+      "id": "73a055fb-38a3-4b69-895a-264d77df9003__L0",
+      "name": "Local 0",
+      "symbol": "var_local_4"
+    },
+    {
+      "id": "6e28db8c-cb60-4944-9dac-1e56a2e5497e__L0",
+      "name": "Local 0",
+      "symbol": "var_local_5"
+    },
+    {
+      "id": "3",
+      "name": "Puxado",
+      "symbol": "var_puxado"
+    },
+    {
+      "id": "1",
+      "name": "Score",
+      "symbol": "var_score"
     }
   ]
 }

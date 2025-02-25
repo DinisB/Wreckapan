@@ -1,0 +1,50 @@
+{
+  "_resourceType": "actor",
+  "id": "e23f417b-ff99-4f96-b961-4dccbcc3603d",
+  "name": "Scoru",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": true,
+  "persistent": true,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_21",
+  "script": [],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "$04$",
+        "x": 1,
+        "y": 1,
+        "location": "overlay",
+        "__collapse": false
+      },
+      "id": "9db6a9bc-271f-47e3-be7b-8d892377d8b9"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "$01$",
+        "x": 16,
+        "y": 1,
+        "location": "overlay",
+        "__collapse": false
+      },
+      "id": "49fd49bc-42a6-4dda-a28d-3d8c6b046b17"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 9,
+  "y": 11,
+  "_index": 0
+}

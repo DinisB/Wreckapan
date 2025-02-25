@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "6e28db8c-cb60-4944-9dac-1e56a2e5497e",
+  "id": "9604b5a9-dfed-4b4c-996a-9f8cfd26ae24",
   "name": "",
   "frame": 0,
   "animate": false,
@@ -14,7 +14,7 @@
   "persistent": true,
   "collisionGroup": "1",
   "prefabScriptOverrides": {},
-  "symbol": "actor_14",
+  "symbol": "actor_18",
   "script": [],
   "startScript": [
     {
@@ -26,7 +26,7 @@
           "value": 2
         }
       },
-      "id": "e4831b23-2363-48fa-8c59-7e80446ad488"
+      "id": "fb54fbae-ca8e-4807-aeb4-8e3bd25e5f91"
     }
   ],
   "updateScript": [
@@ -37,7 +37,7 @@
         "operator": "<=",
         "distance": {
           "type": "number",
-          "value": 8
+          "value": 4
         },
         "otherActorId": "player",
         "__collapseElse": true
@@ -70,12 +70,12 @@
                 "player"
               ]
             },
-            "id": "3613ba08-0d4a-4768-a0cb-be72bb6a8b70"
+            "id": "ae7c0827-15a0-4666-a8f4-f86d70e50108"
           }
         ],
         "false": []
       },
-      "id": "711b8a15-6233-4e67-8081-b59119748981"
+      "id": "6575b16f-b6c8-4367-9c4c-3431c914ceb8"
     },
     {
       "command": "EVENT_ACTOR_MOVE_TO",
@@ -83,18 +83,18 @@
         "actorId": "$self$",
         "x": {
           "type": "property",
-          "target": "73a055fb-38a3-4b69-895a-264d77df9003",
+          "target": "player",
           "property": "xpos"
         },
         "y": {
           "type": "property",
-          "target": "73a055fb-38a3-4b69-895a-264d77df9003",
+          "target": "player",
           "property": "ypos"
         },
         "moveType": "horizontal",
         "useCollisions": true
       },
-      "id": "22a3027c-8b30-45a4-a10c-f580c730d856"
+      "id": "3d000dfd-a413-4d20-963a-0a02ea1ad8cf"
     },
     {
       "command": "EVENT_WAIT",
@@ -102,7 +102,7 @@
         "time": 0.5,
         "frames": 30
       },
-      "id": "49932895-074c-49f0-960a-bbd3afd14b0d"
+      "id": "f91beaa8-69fe-4aad-846d-10bfd137b352"
     }
   ],
   "hit1Script": [],
@@ -113,14 +113,14 @@
       "args": {
         "variable": "1"
       },
-      "id": "16aeb07e-ebf1-4ded-82c9-ad4b65890d46"
+      "id": "8d8c7251-2ea4-4ce8-a638-42525960c83c"
     },
     {
       "command": "EVENT_DEC_VALUE",
       "args": {
         "variable": "L0"
       },
-      "id": "b39d7336-674b-49e4-8517-ef03c3af834a"
+      "id": "c1924f43-e055-427c-a7bb-096a66d60b5b"
     },
     {
       "command": "EVENT_IF",
@@ -145,15 +145,15 @@
             "args": {
               "actorId": "$self$"
             },
-            "id": "b2326679-da17-4f98-9590-64cd217a5da1"
+            "id": "ab79f840-6f8d-4b87-adc9-b8ffe1df6fe9"
           }
         ],
         "false": []
       },
-      "id": "b352870b-465e-4056-851c-531101dda778"
+      "id": "59a42b08-8976-428a-b82e-5b7fba4d1a32"
     }
   ],
-  "x": 10,
-  "y": 21,
-  "_index": 1
+  "x": 5,
+  "y": 10,
+  "_index": 2
 }

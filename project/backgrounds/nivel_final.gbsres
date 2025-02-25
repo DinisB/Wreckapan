@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "c81892f7-2704-4dc8-b31d-3b2b3e1121a4",
+  "name": "nivel final",
+  "symbol": "bg_nivel_final",
+  "width": 20,
+  "height": 36,
+  "imageWidth": 160,
+  "imageHeight": 288,
+  "filename": "nivel final.png",
+  "tileColors": ""
+}

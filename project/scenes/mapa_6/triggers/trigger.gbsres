@@ -1,31 +1,59 @@
 {
   "_resourceType": "trigger",
-  "id": "dde2ad38-59b5-4d1e-aee7-f1f4759b3e34",
+  "id": "b71fdb3a-8b8e-45cb-9293-9d5398393660",
   "name": "",
   "prefabId": "",
-  "x": 12,
-  "y": 5,
-  "symbol": "trigger_1",
+  "x": 11,
+  "y": 19,
+  "symbol": "trigger_14",
   "prefabScriptOverrides": {},
-  "width": 2,
-  "height": 1,
+  "width": 4,
+  "height": 3,
   "script": [
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_TEXT",
       "args": {
-        "sceneId": "4048d39c-7305-41e2-ba2f-4188382c2db6",
-        "x": {
-          "type": "number",
-          "value": 13
-        },
-        "y": {
-          "type": "number",
-          "value": 23
-        },
-        "direction": "up",
-        "fadeSpeed": "2"
+        "text": [
+          "Lever pushed.",
+          "Escaping window\nopen."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
       },
-      "id": "6cf99317-72f1-4621-ba87-719871c7f5bd"
+      "id": "741cfb12-51d6-4967-89bb-caf3741177de"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "7bbe66e8-5df1-4023-8055-f92af9e4d8f2",
+        "spriteStateId": "Pushed",
+        "loopAnim": false
+      },
+      "id": "917e0bac-8067-4ed5-a3c3-50eb7435a597"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "3",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "f57a3bce-15f8-4c58-92d3-d23176efc125"
     }
   ],
   "leaveScript": [],

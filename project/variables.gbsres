@@ -7,14 +7,24 @@
       "symbol": "var_palavr_es"
     },
     {
-      "id": "8bcb27fd-d774-4e9f-8b8d-28d3c2bb02d1__L0",
-      "name": "Local 0",
-      "symbol": "var_local_0"
+      "id": "1",
+      "name": "Score",
+      "symbol": "var_score"
+    },
+    {
+      "id": "3",
+      "name": "Puxado",
+      "symbol": "var_puxado"
     },
     {
       "id": "4",
       "name": "Vida",
       "symbol": "var_vida"
+    },
+    {
+      "id": "8bcb27fd-d774-4e9f-8b8d-28d3c2bb02d1__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
     },
     {
       "id": "1b0a6390-6f8f-4cd0-83f8-59f0ede6fd65__L0",
@@ -40,6 +50,26 @@
       "id": "6e28db8c-cb60-4944-9dac-1e56a2e5497e__L0",
       "name": "Local 0",
       "symbol": "var_local_5"
+    },
+    {
+      "id": "e17d59be-7f43-4126-b28a-1091ffc0a4ca__L0",
+      "name": "Local 0",
+      "symbol": "var_local_6"
+    },
+    {
+      "id": "e8468f3b-bb0b-4f81-817a-e872fd4e7704__L0",
+      "name": "Local 0",
+      "symbol": "var_local_7"
+    },
+    {
+      "id": "9604b5a9-dfed-4b4c-996a-9f8cfd26ae24__L0",
+      "name": "Local 0",
+      "symbol": "var_local_8"
+    },
+    {
+      "id": "1f9aa5d8-cf57-40ef-93bf-4465b1ce6a4f__L0",
+      "name": "Local 0",
+      "symbol": "var_local_9"
     }
   ]
 }

@@ -1,102 +1,31 @@
 {
   "_resourceType": "trigger",
-  "id": "bc29cb0c-ee03-485c-8acb-b6b744eb2c0f",
+  "id": "707bebb3-ad03-4289-8823-cedafcf30692",
   "name": "",
   "prefabId": "",
-  "x": 4,
-  "y": 12,
-  "symbol": "trigger_10",
+  "x": 13,
+  "y": 24,
+  "symbol": "trigger_6",
   "prefabScriptOverrides": {},
-  "width": 1,
-  "height": 4,
+  "width": 2,
+  "height": 1,
   "script": [
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "text": [
-          "This here is a\nbiomagnetic",
-          "weapon, capable of\nemitting rays of",
-          "light at the speed\nof a regular",
-          "bullet."
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "sceneId": "7678e6b9-4f5a-4dc6-b048-cbcdfd32828d",
+        "x": {
+          "type": "number",
+          "value": 12
+        },
+        "y": {
+          "type": "number",
+          "value": 7
+        },
+        "direction": "down",
+        "fadeSpeed": "2"
       },
-      "id": "cb0edbfa-45ab-4c28-a23f-38202279ffaf"
-    },
-    {
-      "command": "EVENT_ACTOR_EMOTE",
-      "args": {
-        "actorId": "$self$",
-        "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
-      },
-      "id": "7bce9484-a0fe-45ff-a718-fcee18a49574"
-    },
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "English\nmotherfuck#r!"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
-      },
-      "id": "36d48f4c-4049-4652-bfe3-ef1226143ae5"
-    },
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "Violation of\nverbal abuse.",
-          "You will be fined\n1 credit on your",
-          "account."
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
-      },
-      "id": "edc9d9ed-9789-4e6e-bdb2-3f5d592e4715"
+      "id": "c8140d78-2b30-42e8-a37f-c379afdb918b"
     }
   ],
   "leaveScript": [],
