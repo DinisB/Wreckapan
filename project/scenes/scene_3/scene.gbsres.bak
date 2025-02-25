@@ -1,0 +1,49 @@
+{
+  "_resourceType": "scene",
+  "id": "93bc1156-5ba5-4a0d-b9ac-8595c08c968a",
+  "_index": 2,
+  "name": "Scene 3",
+  "backgroundId": "983940d9-e859-4b43-ba83-1eb1da6eafff",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f8e+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f5+00e+0f6+00e+0f17+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_3",
+  "x": 656,
+  "y": 128,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Ugh, what year is\nit?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "b00dce7d-6735-4d9c-bf04-a085d7d43b89"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "eacf2edd-43ab-470a-abb0-ec49426dbb52"
+}

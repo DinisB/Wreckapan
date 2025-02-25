@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "aa69699a-ef22-4ba2-8c53-7e70b7c9ee24",
+  "_index": 5,
+  "name": "Mapa 6",
+  "backgroundId": "f5c1092e-ec28-4794-9937-fa948761beeb",
+  "tilesetId": "",
+  "width": 26,
+  "height": 26,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0073+0f4+003+0f2+008+0fa+002+0fa+003+0f2+003+0f2+00a+0f2+003+0f2+002+0f!004+0f2+00a+0f2+004+0f!002+0f!0016+0f!002+0f!0016+0f!002+0f!0016+0f!002+0f!0016+0f!002+0f!0016+0f!002+0f!0016+0f!002+0f!004+0f2+00a+0f2+004+0f!002+0f!004+0f2+00a+0f2+004+0f!002+0f!004+0f2+00a+0f2+004+0f!002+0f!004+0f2+00a+0f2+004+0f!002+0f!004+0f2+00a+0f2+004+0f!002+0f!004+0f2+00a+0f2+004+0f!002+0f!0016+0f!002+0f!0016+0f!002+0f!0016+0f!002+0f!0016+0f!002+0f3+0012+0f3+004+0f14+003+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_6",
+  "x": 1312,
+  "y": 144,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

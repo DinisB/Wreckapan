@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "2790e88b-f0f2-479e-843d-2660056fc188",
+  "_index": 4,
+  "name": "Mapa 5",
+  "backgroundId": "e10462e1-deb8-4d56-9f26-13d4b2b9e1f1",
+  "tilesetId": "",
+  "width": 28,
+  "height": 26,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "007b+0f6+00e+0f9+004+0f9+004+0f3+0014+0f3+002+0f!0018+0f!002+0f!0018+0f!002+0f!0018+0f!002+0f!0018+0f!002+0f!0018+0f!00!0f2+0018+0f!00!0f!0019+0f!00!0f!0019+0f!00!0f2+0018+0f!002+0f!0018+0f!002+0f!0018+0f!002+0f!0018+0f!002+0f!0018+0f!002+0f!0018+0f!002+0f!0018+0f!002+0f!0018+0f!002+0f!0018+0f!002+0f3+008+0f!002+0f!008+0f3+003+0f17+003+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_5",
+  "x": 1080,
+  "y": 144,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

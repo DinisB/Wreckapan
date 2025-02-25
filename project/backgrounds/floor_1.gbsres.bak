@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "eb7ee88d-46b8-4cb8-83ae-3bac745ede3b",
+  "name": "floor 1",
+  "symbol": "bg_floor_1",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "floor 1.png",
+  "tileColors": "",
+  "autoColor": false
+}

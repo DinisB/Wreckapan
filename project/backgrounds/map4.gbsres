@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "9c10b471-65a2-4d0d-90e6-afd70f81cebc",
+  "name": "map4",
+  "symbol": "bg_map4",
+  "width": 28,
+  "height": 26,
+  "imageWidth": 224,
+  "imageHeight": 208,
+  "filename": "map4.png",
+  "tileColors": ""
+}

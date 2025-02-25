@@ -17,35 +17,7 @@
   "symbol": "actor_0",
   "script": [],
   "startScript": [],
-  "updateScript": [
-    {
-      "command": "EVENT_GROUP",
-      "args": {},
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_TEXT_DRAW",
-            "args": {
-              "text": "Swear words: $00$",
-              "x": 0,
-              "y": 0,
-              "location": "background"
-            },
-            "id": "99499765-463e-4ed5-a169-7010ca01c2ee"
-          },
-          {
-            "command": "EVENT_WAIT",
-            "args": {
-              "time": 0.5,
-              "frames": 30
-            },
-            "id": "e27c9731-3ecf-4edb-ac62-951a139800e0"
-          }
-        ]
-      },
-      "id": "bef83cd4-f19a-4e1b-b514-655837b32b98"
-    }
-  ],
+  "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
