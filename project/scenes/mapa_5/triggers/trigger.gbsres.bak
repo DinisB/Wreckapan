@@ -1,0 +1,109 @@
+{
+  "_resourceType": "trigger",
+  "id": "a51a698e-39bc-4c19-9f99-888d8fa23dfe",
+  "name": "",
+  "prefabId": "",
+  "x": 12,
+  "y": 5,
+  "symbol": "trigger_2",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "3"
+          },
+          "valueB": {
+            "type": "false"
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Man, what the hell\ndid they do to",
+                "my precious city?"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "3d60f40c-c6de-4ddc-b99a-a254a9b4b009"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "3"
+                },
+                "valueB": {
+                  "type": "true"
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_MUSIC_STOP",
+                  "args": {},
+                  "id": "50f74684-25a9-4592-ac9a-1bd6e0050937"
+                },
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "a36461cb-f229-4d6e-90ea-fb6435361775",
+                    "x": {
+                      "type": "number",
+                      "value": 9
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 33
+                    },
+                    "direction": "",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "215495b1-42ae-4e20-9904-275f9f7fad4a"
+                }
+              ],
+              "false": []
+            },
+            "id": "dd0f460e-fe5d-474f-851f-5e35b4002ec7"
+          }
+        ]
+      },
+      "id": "4daf19a7-c1ba-4f59-82d3-3b4c246f6f54"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

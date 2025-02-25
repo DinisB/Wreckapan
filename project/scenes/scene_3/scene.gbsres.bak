@@ -17,6 +17,109 @@
   "y": 128,
   "script": [
     {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Pause",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_INPUT_SCRIPT",
+            "args": {
+              "input": [
+                "start"
+              ],
+              "override": true,
+              "__scriptTabs": "press"
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Game is paused, \ncontinue?"
+                    ],
+                    "__section": "behavior",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "text",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": true
+                  },
+                  "id": "593cce07-e24b-49a7-9541-63176f2c522d"
+                },
+                {
+                  "command": "EVENT_CHOICE",
+                  "args": {
+                    "variable": "L1",
+                    "trueText": "Continue",
+                    "falseText": "Quit",
+                    "__collapse": true
+                  },
+                  "id": "c297abb6-a613-4de7-9461-9963fac099fd"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "L1"
+                      },
+                      "valueB": {
+                        "type": "false"
+                      }
+                    },
+                    "__collapseElse": true,
+                    "__collapse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_SWITCH_SCENE",
+                        "args": {
+                          "sceneId": "1a3ef7d4-f33e-4685-ad34-098f64c3b403",
+                          "x": {
+                            "type": "number",
+                            "value": 0
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 0
+                          },
+                          "direction": "",
+                          "fadeSpeed": "2"
+                        },
+                        "id": "4a5f2a1a-8bc0-49e3-82b0-33e88461aebd"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "44d535b9-1ec2-4553-b75b-cf9ea68252da"
+                }
+              ]
+            },
+            "id": "c5670523-0cc4-40e2-bddc-8cffc071061c"
+          }
+        ]
+      },
+      "id": "9f373790-f313-47b3-8e35-d157912ae068"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [

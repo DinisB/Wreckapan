@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "bcf3bf49-1866-480a-82b0-b47561ba0385",
+  "name": "wreckapan_splash",
+  "symbol": "bg_wreckapan_splash",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "wreckapan_splash.png",
+  "tileColors": "",
+  "autoColor": false
+}
