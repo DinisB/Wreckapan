@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "86e89179-7fca-4c11-a942-7a530e8c045b",
+  "name": "victory_screen_v1",
+  "symbol": "bg_victory_screen_v1",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "victory_screen_v1.png",
+  "tileColors": ""
+}
